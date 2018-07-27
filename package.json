@@ -1,0 +1,30 @@
+{
+  "name": "jpeg2000",
+  "version": "0.0.1",
+  "description": "JPEG 2000 Decoding and Encoding Library in JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "    \"test\": \"./node_modules/.bin/mocha --reporter spec\","
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeoTIFF/jpeg2000.git"
+  },
+  "keywords": [
+    "jpeg2000",
+    "jp2",
+    "jpx",
+    "jpeg",
+    "2000",
+    "j2k",
+    "jpf",
+    "jpm",
+    "mj2"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeoTIFF/jpeg2000/issues"
+  },
+  "homepage": "https://github.com/GeoTIFF/jpeg2000#readme"
+}
