@@ -4,7 +4,12 @@
   "description": "JPEG 2000 Decoding and Encoding Library in JavaScript",
   "main": "src/index.js",
   "scripts": {
-    "test": "    \"test\": \"./node_modules/.bin/mocha --reporter spec\","
+    "eslint": "./node_modules/eslint/bin/eslint.js src",
+    "setup-data": "cd test/data && bash setup.sh",
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "analyze": "webpack --config webpack.analyze.js",
+    "dev": "  webpack --mode development",
+    "build": " webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -26,5 +31,18 @@
   "bugs": {
     "url": "https://github.com/GeoTIFF/jpeg2000/issues"
   },
-  "homepage": "https://github.com/GeoTIFF/jpeg2000#readme"
+  "homepage": "https://github.com/GeoTIFF/jpeg2000#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1",
+    "mocha": "^5.2.0",
+    "webpack": "^4.12.0",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-merge": "^4.1.3"
+  }
 }
